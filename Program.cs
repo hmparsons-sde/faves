@@ -24,6 +24,13 @@ namespace faves
             var cormac = new Animal("Cormac", "cow bones");
             cormac.TippyTap("groans");
             cormac.Play("snore");
+
+            var yoga1 = new Yoga("Restorative");
+            yoga1.Stretch();
+            yoga1.Stretch();
+            yoga1.Stretch();
+
+            yoga1.Sequence(16);
         }
     }
 }
